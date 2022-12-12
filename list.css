@@ -1,0 +1,30 @@
+/* ul{
+    list-style-type: symbols("-");
+} */
+/* ol{
+    list-style-type: ;
+} */
+li{
+    float: right;
+
+    
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: blueviolet;
+    padding: 0;
+    margin: 0;
+   
+
+}
+li a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(225, 244, 13);
+    display: block;
+    text-align: center;
+}
+li a:hover{
+    background-color: black;
+}
