@@ -19,14 +19,17 @@ li a{
     text-decoration: none;
     text-align: center;
     
+    
 }
 li a:hover{
     background-color: black;
     
 }
 img{
-    height: 550px;
-    width: 80%;
+    height: 625px;
+    width: 60%;
+   
+    
 }
 hr{
     width: 200px;
