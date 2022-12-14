@@ -1,0 +1,14 @@
+
+
+.image{
+    height: auto;
+    width: 399px;
+    float: left; 
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    
+}
+.image:hover{
+    background-color: aqua;
+}
