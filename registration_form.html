@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Registration Form</h1>
+
+        <div class="frm">
+            <form action="#">
+                <div class="name">
+                <label for="Fname" >First Name:</label>
+                <input type="text" id="fname" placeholder="Enter First Name" required><br><br>
+                <label for="sname" >Second Name:</label>
+                <input type="text" id="sname" placeholder="Enter Second Name" required><br><br>
+            </div>
+                <label>Gender:</label>
+                <input type="radio" name="gender" id="m"><label for="m">Male</label>
+                <input type="radio" name="gender" id="f"><label for="f">Female</label>
+                <input type="radio" name="gender" id="o"><label for="o">Others</label>
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date"  id="dob" required><br><br>
+
+                <label >Subject: </label>
+                <input type="checkbox" name="sub" id="p"><label for="p">Python</label>
+                <input type="checkbox" name="sub" id="c"><label for="c">C-Programing</label>
+                <input type="checkbox" name="sub" id="cp"><label for="cp">C++</label>
+                <input type="checkbox" name="sub" id="htm"><label for="htm">HTML</label>
+                <input type="checkbox" name="sub" id="re"><label for="re">React</label>
+                <br><br>
+
+                <label for="cor">Select Course:</label>
+                <select name="course" id="cor" >
+                    <option value="Mern">Mern</option>
+                    <option value="Php">Full Stack Php</option>
+                    <option value="DA">Data Analyst</option>
+                    <option value="mean">Mean</option>
+                </select>
+                <br><br>
+
+                <label for="doc">Document:</label>
+                <input type="file" id="doc"><br><br>
+                <label for="proimg">Upload Profile Photo:</label>
+                <input type="file" id="proimg">
+
+                <br><br>
+                <label for="add">Address:</label>
+                <textarea  id="add" cols="20" rows="5"></textarea>
+                <br><br>
+                <label for="mail">Email: </label>
+                <input type="email"  id="mail"><br><br>
+                <label for="marks">Enter Marks (0-100):</label>
+                <input type="number" id="marks" min="0" max="100"><br><br>
+
+          
+
+                <input type="submit" value="Register" id="btn">
+        
+
+
+
+            </form>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

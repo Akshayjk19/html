@@ -1,0 +1,48 @@
+.main{
+    /* text-align: center; */
+    width: 600px;
+    margin-left: 371px;
+    background-color: black;
+    color: azure;
+    padding-left: 210px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+   
+}
+.name input[type=text]{
+     height: 15px;
+    width: 189px;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+#btn{
+    margin-left: 121px;
+    width: 139px;
+    height: 28px;
+    border-radius: 25px;
+}
+#dob{
+    border-radius: 10px;
+     height: 20px;
+    width: 110px;
+
+}
+#btn:hover{
+    background-color: yellow;
+}
+.main h1{
+    font-style: italic;
+    letter-spacing: 3px;
+    padding-bottom: 19px;
+}
+#add{
+   height: 41px;
+    width: 235px;
+}
+#marks{
+    width: 215px;
+}

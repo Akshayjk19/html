@@ -9,6 +9,10 @@
     color: aliceblue;
     
 }
+/* .image img{
+    height: 400px;
+    width: 400px;
+} */
 .image:hover{
     background-color: aqua;
 }
