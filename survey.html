@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <h1>Survey Form</h1>
+
+        </div>
+        <div class="frm">
+            <form action="">
+                <h2>Let us know how can we improve FreeCodeCamp</h2>
+                <table>
+                    <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+
+                <td><label for="age">Age: </label></td>
+                <td><input type="number" id="age"></td>
+            </tr>
+            <tr>
+                <td><label for="role">Which option is best describes <br> your current role? </label></td>
+                <td><select name="role" id="role">
+                    <option value="student">Student</option>
+                    <option value="employee">Employee</option>
+                    <option value="free">Free Lancer</option>
+                    <option value="others">Others</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td><label for="rec">How likely you recommend <br> FreeCodeCamp to your friend?</label></td>
+                <td><input type="radio" name="rec" id="rec">Definitely <br>
+                <input type="radio" name="rec" id="rec">May Be <br>
+                <input type="radio" name="rec" id="rec">Not Much <br>
+            </td>
+            </tr>
+            <tr>
+                <td><label for="course">WHich Course :</label></td>
+                <td><select name="course" id="cor">
+                    <option value="Select">Select</option>
+                    <option value="mern">Mern</option>
+                    <option value="da">Data Analyst</option>
+                    <option value="python">Python</option>
+                    <option value="ui">UI/UX</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="no">Phone Number: </label></td>
+                <td><input type="number" name="num" id="no"></td>
+            </tr>
+            </table>
+                <input type="submit" name="submit" id="submit">
+
+
+            </form>
+
+
+        </div>
+
+    </div>
+</body>
+</html>

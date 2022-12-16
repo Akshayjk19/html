@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+    padding-left: 10px;
+}
+.head{
+    text-align: center;
+}
+.frm{
+    border: 2px solid black;
+    background-color: aliceblue;
+    height: 572px;
+    width: 656px;
+    margin-left: 500px;
+    padding-top: 20px;
+    /* text-align: center; */
+    /* padding-left: 150px ; */
+}
+.frm table{
+    margin-left: 100px;
+    padding: 10px;
+}
+.frm h2{
+    text-align: center;
+}
+.frm input[type=submit]{
+    /* text-align: center; */
+    margin-left: 272px;
+}
