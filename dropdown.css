@@ -22,4 +22,17 @@
     font-size: 20px;
 
 }
+.dropdown li button{
+     float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    border: none;
+    background-color: rgb(3, 4, 3);
 
+}
+.dropdown li a{
+    
+}
