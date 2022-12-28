@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: rgb(17 16 15);
+    height: 87px;
+    text-align: center;
+    color: #878181;
+    font-family: cursive;
+    font-size: 41px;
+    font-weight: 700;
+    letter-spacing: 7px;
+  
+}
+.parall{
+    background-image:url('dark.jpeg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parall button{
+    width: 252px;
+    margin-top: 194px;
+    background-color: #676363; 
+    border: none;
+    height: 60px;
+    text-align: center;
+   
+}
+.parall button a{
+    text-decoration: none;
+    color: #b1afaf;
+}
+.content{
+    background-color: #000000e3;
+    height:400px;
+    text-align: center;
+    color: #878181;
+}
+.content h1{
+
+    color:  rgb(140 169 169);
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 58px;
+}
+.parall2{
+    background-image:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2018%2F10%2F01%2F804850-dark-evil-horror-spooky-creepy-scary.jpg&f=1&nofb=1&ipt=5725f81b6098f63bec49530bcb874d3e9a5012c911325f3511ecacc00268d51e&ipo=images');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

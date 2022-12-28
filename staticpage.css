@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+     overflow: hidden;
+    background-color: black;
+    height: 81px;
+    width: 100%;
+}
+.head h1{
+    font-size: 26px;
+    font-family: sans-serif;
+    color: greenyellow;
+    padding-top: 10px;
+    padding-left: 41px;
+
+}
+.head h5{
+    font-size: 13px;
+    color: rgb(169, 203, 117);
+    padding-top: 2px;
+    padding-left: 46px;
+
+}
+
+.top-nav {
+   
+    padding-right: 86px;
+    background-color: black;
+    float: right;
+
+}
+.top-nav a{
+    /* height: 100px;
+    width: 200px; */
+  
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(68, 72, 72);
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.top-nav a:hover{
+    background-color: greenyellow;
+}
+.content{
+    height: 250px;
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 209px;
+}
+.left-col{
+    width: 70%;
+    float: left;
+}
+.sec-cont{
+    background-color: grey;
+    
+    
+}
+.image1 img{
+    width: 99%;
+    height: 232px;
+    padding-top: 10px;
+    padding-left: 6px;
+}
+
+.para h1{
+    font-size: 28px;
+    margin-top: 21px;
+    font-weight: 100;
+
+}
+.para p{
+   font-size: 19px;
+    padding-top: 23px;
+}
+.list{
+    margin-top: 33px;
+}
+.list h3{
+    font-size: 22px;
+    color: #28a8a8;
+}
+.list h6{
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+.right-col{
+    float: left;
+    width: 24%;
+}
+.right-box{
+    height: 207px;
+    border: 2px solid rgb(53, 52, 52);
+    border-radius: 15px;
+    margin-left: 72px;
+    margin-top: 24px;
+}
+.right-box h2,h4,p,ul{
+    padding: 5px;
+}
+.right-box h4{
+    color: #28a8a8;
+}
+.list2 ul{
+    /* list-style-type: none; */
+    padding-left: 74px;
+    padding-top: 20px;
+}
+.right-box h2{
+    padding-left: 55px;
+    padding-top: 10px;
+}
+.frm{
+    padding-left: 10px;
+}
