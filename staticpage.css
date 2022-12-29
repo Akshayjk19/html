@@ -5,7 +5,7 @@
 .head{
      overflow: hidden;
     background-color: black;
-    height: 81px;
+    height: 144px;
     width: 100%;
 }
 .head h1{
@@ -26,7 +26,9 @@
 
 .top-nav {
    
-    padding-right: 86px;
+    padding-right: 154px;
+    padding-top: 55px;
+    /* padding-bottom: 0; */
     background-color: black;
     float: right;
 
@@ -38,7 +40,7 @@
     text-decoration: none;
     color: aliceblue;
     background-color: rgb(68, 72, 72);
-    padding: 5px;
+    padding: 14px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -48,7 +50,7 @@
 .content{
     height: 250px;
     margin-top: 30px;
-    width: 70%;
+    width: 79%;
     margin-left: 209px;
 }
 .left-col{
@@ -89,9 +91,13 @@
     padding-bottom: 25px;
     font-size: 16px;
 }
+.list ul{
+    list-style-position: inside;
+}
 .right-col{
     float: left;
     width: 24%;
+    margin-bottom: 23px;
 }
 .right-box{
     height: 207px;
@@ -107,7 +113,7 @@
     color: #28a8a8;
 }
 .list2 ul{
-    /* list-style-type: none; */
+   list-style-position: inside;
     padding-left: 74px;
     padding-top: 20px;
 }
@@ -117,4 +123,45 @@
 }
 .frm{
     padding-left: 10px;
+}
+
+.frm input[type=text]{
+    text-align: center;
+    height: 20px;
+    width: 223px;
+}
+.footer{
+    /* margin-bottom: 0;
+    padding-bottom: 0; */
+     
+    float: left;
+    width: 100%;
+    height: 112px;
+    background-color: black;
+    
+}
+.footer ul{
+    
+    list-style-type: none;
+    padding-left: 725px;
+   
+    padding-top: 36px;
+   
+}
+.footer li a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    padding-left: 10px;
+    color: blanchedalmond;
+    /* border-right: 2px solid rgb(238, 238, 238);
+    height: 15px;
+    padding-right: 5px; */
+}
+.lin {
+    border-right: 2px solid rgb(79, 75, 75);
+    height: 15px;
+    padding-right: 5px;
+    
+    
 }
