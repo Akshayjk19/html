@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script>
+        function validation()
+        {
+            console.log("working")
+            var nm=document.myform.name.value;
+            var password=document.myform.password.value;
+            var phno=document.myform.phno.value;
+            var email=document.myform.email.value;
+            var atposition=email.indexOf("@");
+            var dotposition=email.lastIndexOf(".");
+            
+
+            if(nm==null || nm=="")
+            {
+                alert("Please Enter Name!");
+                return false;
+            }
+            if(password.length<=6)
+            {
+                alert("Password Should Be Less Than 6");
+                return false;
+            }
+            if(isNaN(phno))
+            {
+                alert("Enter Valid Input");
+                return false;
+            }
+            if(atposition<2 || dotposition<atposition+2 || dotposition+2>=email.length)
+                {
+                    alert("Enter A valid Email");
+                    return false;
+                }
+        }
+    </script>
+</head>
+<body>
+    <form name="myform" method="post" onsubmit="return validation()">
+       Name: <input type="text" name="name"><br>
+       Password: <input type="password" name="password"><br>
+       Phone No: <input type="text" name="phno"><br>
+       Email: <input type="email" name="email"><br>
+       <input type="submit" value="submit">
+    </form>
+   
+</body>
+</html>
